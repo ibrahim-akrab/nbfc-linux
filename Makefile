@@ -30,7 +30,7 @@ override CPPFLAGS += \
 	-DRUNSTATEDIR=\"$(runstatedir)\" \
 	-DVERSION=\"$(version)\"
 
-CORE  = src/nbfc_service src/nbfc src/ec_probe src/test_model_config nbfc-gui/nbfc-qt.py
+CORE  = src/nbfc_service src/nbfc src/ec_probe src/test_model_config
 DOC   = doc/ec_probe.1 doc/nbfc.1 doc/nbfc_service.1 doc/nbfc_service.json.5
 SYSTEMD = etc/systemd/system/nbfc_service.service
 OPEN_RC = etc/init.d/nbfc_service.openrc
