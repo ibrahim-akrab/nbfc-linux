@@ -45,7 +45,6 @@ install-core: $(CORE)
 	install -Dm 755 src/nbfc_service    $(DESTDIR)$(bindir)/nbfc_service
 	install -Dm 755 src/ec_probe        $(DESTDIR)$(bindir)/ec_probe
 	install -Dm 755 src/nbfc            $(DESTDIR)$(bindir)/nbfc
-	install -Dm 755 nbfc-gui/nbfc-qt.py $(DESTDIR)$(bindir)/nbfc-qt
 
 REPLACE_VARS = sed \
 	-e 's|@BINDIR@|$(bindir)|g'           \
